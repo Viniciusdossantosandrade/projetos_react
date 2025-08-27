@@ -1,4 +1,3 @@
-import styles from './compoments/HelloWorld'
 function Frase(){
     return(
         <div>
@@ -6,5 +5,4 @@ function Frase(){
         </div>
     )
 }
-
 export default Frase

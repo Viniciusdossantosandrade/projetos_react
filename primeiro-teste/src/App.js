@@ -1,19 +1,19 @@
 
 import './App.css';
-import Frase from './components/Frase';
-import HelloWorld from './components/HelloWorld';
-import DigaMeuNome from './DigaMeuNome';
+import Evento from './components/Evento';
+import Formulario from './components/Formulario';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>MEU APP REACT</h1>
-      <Frase />
-      <HelloWorld />
-      <Frase />
-      <DigaMeuNome nome ="Vene" />
-      <p></p>
+      <h1>Testando eventos</h1> 
+      <Evento numero="1"/>
+      <Evento numero="2"/>
+      <Evento numero="3"/>
+      <hr></hr>
+      <Formulario/>     
+      
     </div>
   );
 }
